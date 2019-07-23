@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-core/src/main/java/com/kronos/udm/database/HostDevGrpUpdateDbHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-core/src/main/java/com/kronos/udm/scheduledevents/HostDeviceUpdateJob.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-core/src/test/java/com/kronos/udm/database/HostDeviceUpdateDbHandlerMicroTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-core/src/test/java/com/kronos/udm/scheduledevents/HostDeviceUpdateJobMicroTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/StaticObjectsTest/AbstarctClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/StaticObjectsTest/AbstractClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/StaticObjectsTest/main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/exceptions/TryCatchFinallyTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/exceptions/tryCatchFinallyTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/AbstractClass.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/AbstractClassPolimorfTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/Abstraction_VS_Interface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/ClassObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/Enum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/InitBlocksCalls.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/StaticInvocers.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/StaticInvokers.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
