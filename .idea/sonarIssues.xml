@@ -13,6 +13,21 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/Cronos/udm/udm-core/src/main/java/com/kronos/udm/database/HostTTIPUserProfileUpdateDBHandler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-core/src/main/java/com/kronos/udm/device/sdk/service/smartview/SmartviewRequestProcessorServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-core/src/main/java/com/kronos/udm/purge/HostDevGrpUpdatePurgeWorker.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/Cronos/udm/udm-core/src/main/java/com/kronos/udm/scheduledevents/HostDeviceUpdateJob.java">
           <value>
             <set />
@@ -24,6 +39,11 @@
           </value>
         </entry>
         <entry key="C:/Cronos/udm/udm-core/src/test/java/com/kronos/udm/scheduledevents/HostDeviceUpdateJobMicroTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/service/impl/HostTTIPProfileUpdateServiceImpl.java">
           <value>
             <set />
           </value>
@@ -68,6 +88,16 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/AnonymClassTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/AnonymousClassTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/javaFundomentals/ClassObject.java">
           <value>
             <set />
@@ -94,6 +124,11 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/javaFundomentals/main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/links.txt">
           <value>
             <set />
           </value>
