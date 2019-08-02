@@ -84,7 +84,7 @@ public class InitBlocksCalls {
     }
 }
 
-class StaticInvokersMain{
+class InitBlocksCalls_Main{
     public static void main(String[] args){
         System.out.println("Отработал мэйн");
         //StaticInvokers.Enum object = StaticInvokers.Enum.EARTH;

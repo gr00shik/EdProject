@@ -52,7 +52,7 @@ class ClassHeirTwo extends Abstraction_VS_Interface implements Opposite{
     }
 }
 
-class Main {
+class Abstraction_VS_Interface_Main {
     public static void main(String[] args){
 
     }

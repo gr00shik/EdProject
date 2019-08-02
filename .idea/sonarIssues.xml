@@ -8,6 +8,16 @@
             <set />
           </value>
         </entry>
+        <entry key="/a.dummy">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/Cronos/udm/udm-core/src/main/java/com/kronos/udm/database/HostDevGrpUpdateDbHandler.java">
           <value>
             <set />
@@ -43,7 +53,47 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/integrationTest/java/com/kronos/udm/ttip/repository/TTIPExtensionGroupRepositoryIntegrationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/dto/TTIPExtensionDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/dto/TTIPExtensionGroupDTO.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/dto/mapper/TTIPExtensionGroupMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/model/TTIPExtensionEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/model/TTIPExtensionGroupEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/persistence/impl/TTIPExtensionGroupPersistenceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/service/impl/HostTTIPProfileUpdateServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/test/java/com/kronos/udm/ttip/persistence/TTIPExtensionGroupPersistenceServiceImplTest.java">
           <value>
             <set />
           </value>
@@ -59,6 +109,21 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/StaticObjectsTest/main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/TTIPRestrictProfileEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/TTIPRestrictProfileMapper.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/TTIPRestrictionEntity.java">
           <value>
             <set />
           </value>
@@ -104,6 +169,26 @@
           </value>
         </entry>
         <entry key="$PROJECT_DIR$/src/javaFundomentals/Enum.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/ExceptionsByThrowable.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/ExceptionsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/ExeptionsTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/Inheritance.java">
           <value>
             <set />
           </value>
