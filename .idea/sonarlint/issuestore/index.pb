@@ -11,3 +11,5 @@ S
 src/links.txt,2\9\2948b7174af2c6f393d0337682b74dc2ff3ed4dd
 _
 /src/javaFundomentals/ExceptionsByThrowable.java,7\5\75c88010182561846ea76e022b647f7ecadf15a9
+U
+%src/javaFundomentals/Inheritance.java,1\9\19faf253f99bf210c274d80e2c6da59b3cf6d0ef
