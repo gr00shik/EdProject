@@ -1,5 +1,11 @@
 package javaFundomentals.serializationAndAnnotation;
 
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+import java.io.ObjectOutputStream;
+import java.io.Serializable;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -18,7 +24,8 @@ public @interface SimplyAnnotation   {
     SwitcherRoles role();
 }
 
-class Factory{
+class Factory implements Serializable {
+    private static final String FILE_PATH = "src\\javaFundomentals\\serializationAndAnnotation\\jsave.ser";
     private boolean factoryMachineOneState;
     private boolean factoryMachineTwoState;
 
@@ -60,6 +67,22 @@ class Factory{
         }
     }
 
+    public void saveFactoryStates(Factory factory) throws IOException {
+        //создаем 2 потока для сериализации объекта и сохранения его в файл
+        FileOutputStream outputStream = new FileOutputStream(FILE_PATH);
+        ObjectOutputStream objectOutputStream = new ObjectOutputStream(outputStream);
+
+        // сохраняем игру в файл
+        objectOutputStream.writeObject(factory);
+
+        //закрываем поток и освобождаем ресурсы
+        objectOutputStream.close();
+    }
+
+    public Factory loadFactoryStates() throws IOException, ClassNotFoundException {
+        ObjectInputStream objectInputStream = new ObjectInputStream(new FileInputStream(FILE_PATH));
+        return (Factory) objectInputStream.readObject();
+    }
 }
 
 class SimplyAnnotation_Main{
@@ -67,7 +90,12 @@ class SimplyAnnotation_Main{
         Factory factory = new Factory();
         try {
             factory.runOnMachines(factory);
-        } catch (InvocationTargetException | IllegalAccessException | NoSuchFieldException e) {
+            factory.saveFactoryStates(factory);
+            Factory factory1 = factory.loadFactoryStates();
+
+            //return false
+            factory1.equals(factory);
+        } catch (InvocationTargetException | IllegalAccessException | NoSuchFieldException | IOException | ClassNotFoundException e) {
             System.out.println(e.getMessage());
         }
     }
