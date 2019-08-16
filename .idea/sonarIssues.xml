@@ -53,6 +53,16 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/integrationTest/java/com/kronos/udm/ttip/repository/TTIPActionRepositoryIntegrationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/integrationTest/java/com/kronos/udm/ttip/repository/TTIPDownloadPackageRepositoryIntegrationTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/Cronos/udm/udm-ttip/src/integrationTest/java/com/kronos/udm/ttip/repository/TTIPExtensionGroupRepositoryIntegrationTest.java">
           <value>
             <set />
@@ -73,6 +83,11 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/model/TTIPDownloadPackageFileEntity.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/model/TTIPExtensionEntity.java">
           <value>
             <set />
@@ -83,12 +98,77 @@
             <set />
           </value>
         </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/persistence/TTIPActionPersistenceService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/persistence/TTIPDownloadPackageFilePersistenceService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/persistence/TTIPDownloadPackagePersistenceService.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/persistence/impl/HostTTIPProfileUpdatePersistentServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/persistence/impl/TTIPActionPersistenceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/persistence/impl/TTIPCallMenuPersistenceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/persistence/impl/TTIPDownloadPackageFilePersistenceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/persistence/impl/TTIPDownloadPackagePersistenceServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/persistence/impl/TTIPExtensionGroupPersistenceServiceImpl.java">
           <value>
             <set />
           </value>
         </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/repository/TTIPActionRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/repository/TTIPDownloadPackageFileRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/repository/TTIPDownloadPackageRepository.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="C:/Cronos/udm/udm-ttip/src/main/java/com/kronos/udm/ttip/service/impl/HostTTIPProfileUpdateServiceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/test/java/com/kronos/udm/ttip/persistence/TTIPActionPersistenceServiceImplTest.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="C:/Cronos/udm/udm-ttip/src/test/java/com/kronos/udm/ttip/persistence/TTIPDownloadPackagePersistenceServiceImplTest.java">
           <value>
             <set />
           </value>
@@ -163,7 +243,17 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/ClassLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/javaFundomentals/ClassObject.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/CustomClassLoader.java">
           <value>
             <set />
           </value>
@@ -263,7 +353,27 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/classLoader/CustomClassLoader.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/javaFundomentals/main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/serializationAndAnnotation/CastomSerialization.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/serializationAndAnnotation/CustomAnnotation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/serializationAndAnnotation/CustomSerialization.java">
           <value>
             <set />
           </value>
@@ -278,7 +388,22 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/serializationAndAnnotation/serialization/ParentChildSerialization.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/javaFundomentals/test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/links.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../EductionalProject/src/javaFundomentals/serializationAndAnnotation/SimplyAnnotation.java">
           <value>
             <set />
           </value>

@@ -14,9 +14,13 @@ import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
+/*
+* Класс создания собственной аннотации
+*/
+
 @Target({ElementType.METHOD, ElementType.TYPE})
 @Retention(RetentionPolicy.RUNTIME)
-public @interface SimplyAnnotation   {
+public @interface CustomAnnotation {
     //Поля которые будут указаны в аннотации будут использоваться при использовании аннотации
     //int i(); будет использоваться как @Description(i=100)
     //можно указывать default значение переменной в случае если она не будет указана
@@ -29,12 +33,12 @@ class Factory implements Serializable {
     private boolean factoryMachineOneState;
     private boolean factoryMachineTwoState;
 
-    @SimplyAnnotation(role = SwitcherRoles.ON)
+    @CustomAnnotation(role = SwitcherRoles.ON)
     private void factoryMachineOne(){
         System.out.println("it was factoryMachineOne");
     }
 
-    @SimplyAnnotation(role = SwitcherRoles.OFF)
+    @CustomAnnotation(role = SwitcherRoles.OFF)
     private void factoryMachineTwo(){
         System.out.println("it was factoryMachineTwo");
     }
@@ -48,9 +52,9 @@ class Factory implements Serializable {
         for (Method method: methods) {
 
             //Можно проверить содержит ли метод аннотацию
-            if(method.isAnnotationPresent(SimplyAnnotation.class)){
+            if(method.isAnnotationPresent(CustomAnnotation.class)){
 
-                SimplyAnnotation annotation = method.getDeclaredAnnotation(SimplyAnnotation.class);
+                CustomAnnotation annotation = method.getDeclaredAnnotation(CustomAnnotation.class);
 
                 if(annotation.role().equals(SwitcherRoles.ON)){
                     //Получение приватного поля с помощью рефлекции
