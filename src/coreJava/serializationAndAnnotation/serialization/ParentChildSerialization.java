@@ -1,4 +1,4 @@
-package javaFundomentals.serializationAndAnnotation.serialization;
+package coreJava.serializationAndAnnotation.serialization;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -75,7 +75,7 @@ class Child extends ParentChildSerialization {
 }
 
 class ParentChildSerialization_Main{
-    private static final String FILE_PATH = "src\\javaFundomentals\\serializationAndAnnotation\\jsave.ser";
+    private static final String FILE_PATH = "src\\coreJava\\serializationAndAnnotation\\jsave.ser";
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         FileOutputStream fileOutputStream = new FileOutputStream(FILE_PATH);

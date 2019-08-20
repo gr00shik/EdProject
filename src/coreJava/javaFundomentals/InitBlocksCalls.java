@@ -1,4 +1,4 @@
-package javaFundomentals;
+package coreJava.javaFundomentals;
 
 /*
 * Класс был создан для игры с вызовами блоков инициализации:

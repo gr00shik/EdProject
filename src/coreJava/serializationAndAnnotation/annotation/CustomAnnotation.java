@@ -1,4 +1,6 @@
-package javaFundomentals.serializationAndAnnotation;
+package coreJava.serializationAndAnnotation.annotation;
+
+import coreJava.serializationAndAnnotation.SwitcherRoles;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -29,7 +31,7 @@ public @interface CustomAnnotation {
 }
 
 class Factory implements Serializable {
-    private static final String FILE_PATH = "src\\javaFundomentals\\serializationAndAnnotation\\jsave.ser";
+    private static final String FILE_PATH = "src\\coreJava\\serializationAndAnnotation\\jsave.ser";
     private boolean factoryMachineOneState;
     private boolean factoryMachineTwoState;
 

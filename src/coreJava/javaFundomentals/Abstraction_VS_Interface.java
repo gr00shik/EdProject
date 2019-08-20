@@ -1,4 +1,4 @@
-package javaFundomentals;
+package coreJava.javaFundomentals;
 
 /*
 * Класс был создан для просмотра функционала создания полиморфных методов в интерфейсах и абстрактных классах:

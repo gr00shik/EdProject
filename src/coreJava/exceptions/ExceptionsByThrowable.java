@@ -1,4 +1,4 @@
-package javaFundomentals;
+package coreJava.exceptions;
 
 /*
 *  В данном классе я играюсь с темой исключений

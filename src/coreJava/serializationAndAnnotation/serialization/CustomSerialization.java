@@ -1,4 +1,4 @@
-package javaFundomentals.serializationAndAnnotation.serialization;
+package coreJava.serializationAndAnnotation.serialization;
 
 import java.io.Externalizable;
 import java.io.FileInputStream;
@@ -57,7 +57,7 @@ public class CustomSerialization implements Externalizable {
 }
 
 class CustomSerialization_Main {
-    private static final String FILE_PATH = "src\\javaFundomentals\\serializationAndAnnotation\\jsave.ser";
+    private static final String FILE_PATH = "src\\coreJava\\serializationAndAnnotation\\jsave.ser";
 
     public static void main(String[] args) throws IOException, ClassNotFoundException {
         CustomSerialization classObject = new CustomSerialization("key", "value");

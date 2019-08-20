@@ -1,4 +1,4 @@
-package javaFundomentals.classLoader;
+package coreJava.classLoader;
 
 import java.io.IOException;
 

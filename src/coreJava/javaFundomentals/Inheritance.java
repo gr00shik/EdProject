@@ -1,4 +1,4 @@
-package javaFundomentals;
+package coreJava.javaFundomentals;
 
 public class Inheritance {
     private int baseInt = 10;
