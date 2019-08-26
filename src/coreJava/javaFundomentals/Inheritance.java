@@ -7,33 +7,39 @@ public class Inheritance {
         return baseInt;
     }
 
-    public void test(){
+    public void printInt(){
         System.out.println("Inherit");
+        System.out.println("-");
     }
 }
 
 class Heir extends Inheritance{
     private int baseInt = 20;
+    private int localInt = 30;
 
     public int getBaseInt() {
         return baseInt;
     }
 
-    public void test(){
+    public void printInt(){
+        System.out.println(localInt);
         System.out.println("heir");
-    }
 
-    public void test2(){
-
+        System.out.println("-");
     }
 }
 
 class Inheritance_Main{
     public static void main(String[] args){
-        Inheritance obj = new Heir();
-        System.out.println("int - " + obj.getBaseInt());
-        obj.test();
-        //obj.test2 недопустимая конструкция из-за того что Inheritance видит в Heir только перегруженные методы
+        Inheritance inh = new Inheritance ();
+        inh.printInt();
+
+        Heir objHeir = new Heir();
+        objHeir .printInt();
+
+        Inheritance objBoth = new Heir();
+        objBoth.printInt();
+
     }
 }
 
