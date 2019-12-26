@@ -1,7 +1,7 @@
 package sping.task1.interfaces;
 
-public interface Breed {
+import java.util.List;
 
-    void setCharacteristics(int horseSpeed, int horseMaxSpeed, int horseBoost);
+public interface Breed {
 
 }

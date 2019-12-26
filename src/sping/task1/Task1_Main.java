@@ -2,6 +2,9 @@ package sping.task1;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
+import sping.task1.support.FXMLPageSupporter;
+
+import java.io.IOException;
 
 public class Task1_Main extends Application {
 
@@ -10,8 +13,8 @@ public class Task1_Main extends Application {
     }
 
     @Override
-    public void start(Stage primaryStage) {
-
+    public void start(Stage primaryStage) throws IOException {
+        FXMLPageSupporter.startWindow("/sping/task1/fx/app.fxml", "StartPage");
     }
 
 }

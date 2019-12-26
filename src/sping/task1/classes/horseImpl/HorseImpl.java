@@ -7,25 +7,20 @@ import java.util.Random;
 
 public class HorseImpl implements Horse{
 
-    private Breed breed;
+    private Breed breedImpl;
 
-    public Breed getBreed() {
-        return breed;
+    public Breed getBreedImpl() {
+        return breedImpl;
     }
 
-    public void setBreed(Breed breed) {
-        this.breed = breed;
+    public void setBreedImpl(Breed breed) {
+        this.breedImpl = breed;
     }
 
-    public Horse createHorseForRace() {
-        Horse horseForRace = new HorseImpl();
-        breed.setCharacteristics(getRandomParam(), getRandomParam(), getRandomParam());
+    public int getWinChance(){
 
-        return horseForRace;
+
+        return 0;
     }
 
-    private int getRandomParam() {
-        Random rand = new Random();
-        return (rand.nextInt(10)) + 2;
-    }
 }

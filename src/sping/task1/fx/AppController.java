@@ -6,8 +6,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import sping.task1.interfaces.Race;
+import sping.task1.support.SpringXmlContext;
 
 public class AppController {
 
@@ -24,11 +24,11 @@ public class AppController {
 
     @FXML
     public void initialize() {
-        ApplicationContext context = new ClassPathXmlApplicationContext("sping/task1/TaskOneConfig.xml");
+        ApplicationContext context = SpringXmlContext.getInstance().getContext();
         Race raceObject = (Race) context.getBean("race");
 
         setMoneyCountInfo();
-
+        raceObject.createRace();
 
     }
 
