@@ -208,6 +208,21 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/coreJava/Test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/coreJava/multithreading/MultiThreading.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/coreJava/test.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/src/exceptions/TryCatchFinallyTest.java">
           <value>
             <set />
@@ -403,7 +418,137 @@
             <set />
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/sping/task1/Task1_Main.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/sping/task1/TaskOneConfig.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/sping/task1/classes/breedImpl/BreedImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/sping/task1/classes/horseImpl/HorseImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/sping/task1/classes/raceImpl/RaceImpl.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/sping/task1/fx/AppController.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/sping/task1/fx/app.fxml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/sping/task1/interfaces/Breed.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/sping/task1/interfaces/Horse.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/src/sping/task1/interfaces/Race.java">
+          <value>
+            <set />
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../EductionalProject/src/javaFundomentals/serializationAndAnnotation/SimplyAnnotation.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/build/libs/wdm-jumbo-08.01.06-SNAPSHOT.jar!/com/kronos/wfc/datacollection/wdm/framework/services/download/AbstractPackageAssembler.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/build/libs/wdm-jumbo-08.01.06-SNAPSHOT.jar!/com/kronos/wfc/datacollection/wdm/framework/services/download/PackageDomain.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/build/libs/wdm-jumbo-08.01.06-SNAPSHOT.jar!/com/kronos/wfc/datacollection/wdm/framework/services/download/PackageDomainFactory.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/build/libs/wdm-jumbo-08.01.06-SNAPSHOT.jar!/com/kronos/wfc/datacollection/wdm/framework/services/download/TimekeepingDataManagerFactory.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/build/libs/wdm-jumbo-08.01.06-SNAPSHOT.jar!/com/kronos/wfc/datacollection/wdm/framework/services/download/TimekeepingPackageDomain.class">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/gradlew.bat">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/source/java/com/kronos/wfc/datacollection/wdm/framework/services/download/EmployeeBiometricsProvider.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/source/java/com/kronos/wfc/datacollection/wdm/framework/services/download/GenericPackageAssembler.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/source/java/com/kronos/wfc/datacollection/wdm/framework/services/download/TimekeepingDataManagerFactory.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/staging_files/app_server/applications/wdm/properties/WDM.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/test/acceptance-tests/src/test/java/com/kronos/stepdefs/DeviceStepDefs.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../Projects/wdm/test/acceptance-tests/src/test/resources/features/Nightly/configuration/communicationSettingsProvider/CommSettingsNGTProvider.feature">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../wdm/gradle.properties">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../wdm/gradlew.bat">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../wdm/source/java/com/kronos/wfc/datacollection/wdm/framework/services/download/GenericPackageAssembler.java">
           <value>
             <set />
           </value>

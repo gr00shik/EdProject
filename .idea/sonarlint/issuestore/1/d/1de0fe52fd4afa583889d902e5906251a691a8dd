@@ -1,0 +1,9 @@
+
+squid:S11861"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ύώ8΄¨βα-
+ksquid:UselessImportCheck";Remove this unused import 'java.util.concurrent.Executors'.(δεÒΫÿÿÿÿÿ8ξες‹β-
+squid:S1186$"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(“–ύώ8σΗαα-
+hsquid:UselessImportCheck"8Remove this unused import 'java.util.concurrent.Future'.(α¬ψνύÿÿÿÿ8ξες‹β-
+qsquid:UselessImportCheck"ARemove this unused import 'java.util.concurrent.ExecutorService'.(ζχ–£ωÿÿÿÿ8ξες‹β-
+isquid:UselessImportCheck"9Remove this unused import 'java.lang.reflect.Executable'.(¦·¥ όÿÿÿÿ8ί›ΰβ-
+jsquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.Executor'.(χύ¶ϊÿÿÿÿ8Τ•αβ-
+jsquid:UselessImportCheck":Remove this unused import 'java.util.concurrent.Callable'.(ΎΧ¶ξϋÿÿÿÿ8ξες‹β-

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for EdProject" enabled="true">
+        <sourceOutputDir name=".idea/mavenBuild/generated-sources/annotations" />
+        <sourceTestOutputDir name=".idea/mavenBuild/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="EdProject" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="EdProject" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

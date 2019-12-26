@@ -4,8 +4,16 @@ import sping.task1.interfaces.Breed;
 
 public class BreedImpl implements Breed {
 
-    public BreedImpl() {
-        System.out.println("RaceImpl");
+    private int horseSpeed;
+    private int horseMaxSpeed;
+    private int horseBoost;
+
+
+
+    public void setCharacteristics(int horseSpeed, int horseMaxSpeed, int horseBoost) {
+        this.horseSpeed = horseSpeed;
+        this.horseMaxSpeed = horseMaxSpeed;
+        this.horseBoost = horseBoost;
     }
 
 }
