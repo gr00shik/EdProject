@@ -3,6 +3,7 @@ package sping.task1.support;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Control;
 import javafx.stage.Stage;
 
@@ -24,6 +25,19 @@ public class FXMLPageSupporter {
     public static void closeWindow(Control sceneItem){
         Stage stage = (Stage) sceneItem.getScene().getWindow();
         stage.close();
+    }
+
+    public static void printError(String msg, Alert.AlertType alertType){
+        Alert alert = alertMsg(msg, alertType);
+        alert.showAndWait();
+    }
+
+    private static Alert alertMsg(String msg, Alert.AlertType alertType){
+        Alert alert = new Alert(alertType);
+        alert.setTitle("Dialog");
+        alert.setHeaderText(msg);
+
+        return alert;
     }
 
 }

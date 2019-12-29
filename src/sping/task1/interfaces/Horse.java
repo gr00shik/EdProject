@@ -1,5 +1,6 @@
 package sping.task1.interfaces;
 
 public interface Horse {
-    int getWinChance();
+   Integer setHorseHeapSpeed (Integer riderMystery);
+   Integer getHorseMaxSpeed ();
 }

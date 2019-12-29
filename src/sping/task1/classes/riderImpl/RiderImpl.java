@@ -1,19 +1,24 @@
 package sping.task1.classes.riderImpl;
 
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 import sping.task1.interfaces.Rider;
+import sping.task1.support.RandomUtil;
 
 import java.util.Random;
 
+@Component("rider")
+@Scope("prototype")
 public class RiderImpl implements Rider{
 
-    private int mastery;
+    private Integer mastery;
 
     public RiderImpl(){
-        mastery = getRandomParam();
+        mastery = RandomUtil.getRandomParam(10, 2);
     }
 
-    private int getRandomParam() {
-        Random rand = new Random();
-        return (rand.nextInt(10)) + 2;
+    @Override
+    public Integer getRiderMastery() {
+        return mastery;
     }
 }

@@ -7,7 +7,7 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sping.task1.fx.AppController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="435.0" prefWidth="590.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sping.task1.fx.AppController">
    <children>
       <Label layoutX="237.0" layoutY="14.0" text="Тотализатор">
          <font>
@@ -19,11 +19,10 @@
       <TextArea fx:id="eventInfo" layoutX="14.0" layoutY="101.0" prefHeight="104.0" prefWidth="215.0" />
       <Label layoutX="14.0" layoutY="84.0" text="Информация о предстоящем событии:" />
       <Label layoutX="301.0" layoutY="84.0" text="Поставить ставку" />
-      <Button fx:id="addBet" layoutX="301.0" layoutY="139.0" mnemonicParsing="false" text="Поставить " />
-      <Button fx:id="skipBet" layoutX="385.0" layoutY="139.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Пропустить" />
-      <TextField fx:id="betTF" layoutX="301.0" layoutY="101.0" prefHeight="25.0" prefWidth="168.0" />
+      <Button fx:id="addBet" layoutX="301.0" layoutY="134.0" mnemonicParsing="false" onAction="#setBet" prefHeight="25.0" prefWidth="223.0" text="Поставить " />
+      <TextField fx:id="betTF" layoutX="301.0" layoutY="101.0" prefHeight="25.0" prefWidth="95.0" />
       <TextArea fx:id="racInfo" layoutX="14.0" layoutY="215.0" prefHeight="200.0" prefWidth="562.0" />
-      <Label layoutX="302.0" layoutY="172.0" text="Поставлено:" />
-      <Label fx:id="betMoneyInfo" layoutX="377.0" layoutY="172.0" text="0" />
+      <Label layoutX="428.0" layoutY="84.0" text="Поставить на" />
+      <TextField fx:id="betTF1" layoutX="428.0" layoutY="101.0" prefHeight="25.0" prefWidth="95.0" />
    </children>
 </AnchorPane>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="pare" class="sping.task1.classes.pareImpl.PareImpl" scope = "prototype"
+          autowire="byName">
+        <!--<property name="horse" ref="horse" />-->
+        <!--<property name="rider" ref="rider" />-->
+    </bean>
+
+    <bean id="horse" class="sping.task1.classes.horseImpl.HorseImpl" scope = "prototype">
+        <constructor-arg ref="breed"/>
+    </bean>
+
+    <bean id="breed" class="sping.task1.classes.breedImpl.BreedImpl" scope = "prototype">
+    </bean>
+
+    <bean id="rider" class="sping.task1.classes.riderImpl.RiderImpl" scope = "prototype"/>
+
+    <bean id="race"  class="sping.task1.classes.raceImpl.RaceImpl" scope = "singleton"/>
+</beans>
